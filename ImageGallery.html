@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="imagegallery.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Photo Gallery</h1>
+        <p>Every picture tells a story.</p>
+    </header>
+
+    <section class="gallery">
+
+        <img src="picture1.png"
+             alt="MandalaArt">
+
+        <img src="picture2.png"
+             alt="Flower">
+
+        <img src="picture3.png"
+             alt="designs">
+
+        <img src="picture4.png"
+             alt="temples">
+
+        <img src="picture5.png"
+             alt="Bamboo">
+
+        <img src="picture6.png"
+             alt="Bag">
+
+    </section>
+
+    <!-- Lightbox -->
+
+    <div class="lightbox" id="lightbox">
+
+        <button class="close" id="close">&times;</button>
+
+        <button class="prev" id="prev">&#10094;</button>
+
+        <img src="" id="lightboxImage" alt="Expanded gallery image">
+
+        <button class="next" id="next">&#10095;</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
